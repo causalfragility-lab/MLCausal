@@ -6,6 +6,7 @@
 [![R-CMD-check](https://github.com/YOUR_USERNAME/MLCausal/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/YOUR_USERNAME/MLCausal/actions/workflows/R-CMD-check.yaml)
 [![Codecov test coverage](https://codecov.io/gh/YOUR_USERNAME/MLCausal/branch/main/graph/badge.svg)](https://app.codecov.io/gh/YOUR_USERNAME/MLCausal?branch=main)
 [![CRAN status](https://www.r-pkg.org/badges/version/MLCausal)](https://CRAN.R-project.org/package=MLCausal)
+[![R-CMD-check](https://github.com/causalfragility-lab/MLCausal/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/causalfragility-lab/MLCausal/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 `MLCausal` provides a structured workflow for estimating average treatment
