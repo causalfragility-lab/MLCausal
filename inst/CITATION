@@ -1,0 +1,10 @@
+citHeader("To cite MLCausal in publications, please use:")
+
+bibentry(
+  bibtype = "Manual",
+  title   = "MLCausal: Causal Inference Methods for Multilevel and Clustered Data",
+  author  = person("Subir", "Hait"),
+  year    = "2026",
+  note    = "R package version 0.1.0",
+  url     = "https://github.com/causalfragility-lab/MLCausal"
+)
