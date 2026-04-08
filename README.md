@@ -1,24 +1,21 @@
-# MLCausal
+ # MLCausal
 
 **Causal Inference Methods for Multilevel and Clustered Data**
 
 <!-- badges: start -->
-[![R-CMD-check](https://github.com/YOUR_USERNAME/MLCausal/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/YOUR_USERNAME/MLCausal/actions/workflows/R-CMD-check.yaml)
-[![Codecov test coverage](https://codecov.io/gh/YOUR_USERNAME/MLCausal/branch/main/graph/badge.svg)](https://app.codecov.io/gh/YOUR_USERNAME/MLCausal?branch=main)
-[![CRAN status](https://www.r-pkg.org/badges/version/MLCausal)](https://CRAN.R-project.org/package=MLCausal)
 [![R-CMD-check](https://github.com/causalfragility-lab/MLCausal/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/causalfragility-lab/MLCausal/actions/workflows/R-CMD-check.yaml)
+[![CRAN status](https://www.r-pkg.org/badges/version/MLCausal)](https://CRAN.R-project.org/package=MLCausal)
 <!-- badges: end -->
 
-`MLCausal` provides a structured workflow for estimating average treatment
-effects in clustered observational data — settings such as students within
-schools, patients within hospitals, or employees within firms.
+`MLCausal` provides a structured workflow for estimating causal effects in
+clustered observational data, such as students within schools, patients within
+hospitals, or employees within firms.
 
-The package integrates the full causal design pipeline for multilevel data:
+The package integrates the full causal design pipeline for multilevel settings:
 cluster-aware propensity score estimation, inverse-probability weighting,
-nearest-neighbour matching with a dual-balance penalty, covariate balance
-diagnostics at both the individual and cluster levels, overlap assessment,
-outcome modelling with cluster-robust standard errors, and tipping-point
-sensitivity analysis.
+within-cluster matching, covariate balance diagnostics at both the individual
+and cluster levels, overlap assessment, outcome modelling with cluster-robust
+standard errors, and sensitivity analysis for unmeasured confounding.
 
 ---
 
@@ -30,7 +27,8 @@ install.packages("MLCausal")
 
 # Development version from GitHub
 # install.packages("remotes")
-remotes::install_github("YOUR_USERNAME/MLCausal")
+remotes::install_github("causalfragility-lab/MLCausal")
+
 ```
 
 Required dependencies installed automatically: `sandwich`, `lmtest`,
@@ -180,11 +178,10 @@ increasingly penalise matches that worsen cluster-mean covariate balance.
 If you use `MLCausal` in published research, please cite:
 
 ```
-YOUR CITATION HERE
+Hait, S. (2026). MLCausal: Causal inference methods for multilevel and clustered data. R package.
 ```
 
 ---
 
 ## License
-
-MIT © 2026 MLCausal Authors
+MIT © 2026 causalfragility-lab
